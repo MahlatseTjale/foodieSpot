@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Json Server
-This application uses a json server. Navigate to `foodieSpot-server` folder within src and run `npm install -g json-server` and `json-server --watch posts.json`
+This application uses a json server. Navigate to `foodieSpot-server` folder within `src/app` and run `npm install -g json-server` and `json-server --watch posts.json`
 
 
 ## Code scaffolding
