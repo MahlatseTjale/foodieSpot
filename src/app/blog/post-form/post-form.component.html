@@ -1,0 +1,53 @@
+<div class="card bg-light mb-5">
+    <div class="card-body">
+      <form #formControl="ngForm">
+        <div class="form-group">
+          <div class="d-flex justify-content-between align-items-center">
+            <label for="name">Title</label>
+            <!-- error message -->
+            <p class="error-message mb-1" *ngIf="nameControl.invalid && nameControl.touched">Valid Title is Required</p>
+          </div>
+          <input required class="form-control" type="text"  id="name" name="name" placeholder="Enter Title here"            
+            [(ngModel)]="post.postTitle"
+            #nameControl="ngModel" />
+        </div>
+
+        <div class="form-group">
+          <!-- error message -->
+          <p class="error-message-category mb-1" *ngIf="CategoryControl.invalid && CategoryControl.touched">Please Select Category</p>
+          <label for="name">Category</label>
+          <select required class="ml-3" id="categories" name="Category" 
+            [(ngModel)]="post.postCategory"  
+            #CategoryControl="ngModel">
+            <option *ngFor="let c of categories" [value]="c.name" id="categories" name="Category">{{c.name}}</option>
+            
+          </select>
+             
+        </div>
+  
+        <div class="form-group">
+          <div class="d-flex justify-content-between align-items-center">
+            <label for="description">Description</label>
+            <!-- error message -->
+            <p class="error-message mb-1" *ngIf="descriptionControl.invalid && descriptionControl.touched">Valid Description is Required</p>
+          </div>
+            <textarea required class="form-control" rows="2" placeholder="Enter Post Description Here" id="description" name="description"
+              [(ngModel)]="post.postDescription"
+              #descriptionControl="ngModel"></textarea>
+          </div>
+
+        <div class="form-group">
+          <div class="d-flex justify-content-between align-items-center">
+            <label for="body">Post Body</label>
+            <!-- error message -->
+            <p class="error-message mb-1" *ngIf="bodyControl.invalid && bodyControl.touched" >Valid Post Body is Required</p>
+          </div>
+          <textarea required class="form-control" rows="4" placeholder="Enter Post Body Here" id="body" name="body"
+            [(ngModel)]="post.postBody"
+            #bodyControl="ngModel"></textarea>
+        </div>
+  
+        <button type="button" [disabled]="formControl.invalid" class="btn btn-primary" (click)="postSubmit()">Submit</button>
+      </form>
+    </div>
+  </div>

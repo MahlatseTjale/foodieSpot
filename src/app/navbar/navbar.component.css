@@ -1,0 +1,35 @@
+.container{
+    padding: 0;
+    font-weight: bolder;
+    border-bottom: #ffd19d solid 1px ;
+}
+
+.btn-primary{
+    background: #F58D13;
+    border: none;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.btn{
+    padding: 2px 22px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+
+
+.navigation{
+    padding: 5px 15px
+}
+
+li{
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+

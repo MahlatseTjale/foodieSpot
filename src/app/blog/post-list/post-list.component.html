@@ -1,0 +1,29 @@
+<div  style="text-align: center; padding: 15px 0 3px 0">
+  <a class="mr-auto ml-auto" [routerLink]="['/blog/addpost']">
+    <i class="fa fa-plus-circle"></i>
+    Add Post To Blog
+  </a>
+</div>
+<div class="row mt-2 mb-3">
+  <!-- post description array loop -->
+  <div class="col-md-4" [post]="post" *ngFor="let post of postList">
+    <div class="card mb-4 shadow-sm" style="margin: 0">
+      <div class="card-body">
+        <h5 class="card-title">{{ post.postTitle }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{ post.postCategory }}</h6>
+        <p class="card-text">
+          {{ post.postDescription }}
+        </p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <a type="button" class="btn btn-sm btn-outline-secondary" [routerLink]="['/blog', post.id, 'post']">
+              Read Post
+            </a>
+          </div>
+          <!-- <small class="text-muted">9 mins</small> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- post description array lood end -->
+</div>

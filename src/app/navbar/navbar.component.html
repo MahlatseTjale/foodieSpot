@@ -1,0 +1,47 @@
+<div class="container nav-container " >
+    <nav class="container navigation navbar navbar-expand-md bg-light navbar-light sticky-nav " 
+    style="z-index:10; width: inherit; "
+    ngStickyNav
+    >
+
+        <!-- FOODIE SPOT LOGO -->
+        <a class="navbar-brand" routerLink="/">
+            <img src="../../assets/Foodie-Spot-logo.png"
+            alt="Foodie-Spot"
+            style="width: 150px"
+            margin-bottom="20px"
+            
+            >
+        </a>
+        
+        <!-- <a href="#" class="btn btn-primary ml-auto" routerLink="/">Blog</a> -->
+
+        <!-- Hamburger icon -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navList">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- navList items -->
+        <div class="collapse navbar-collapse" id="navList">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/blog">Blog</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/about">About</a>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+</div>
+

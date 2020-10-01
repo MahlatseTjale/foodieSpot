@@ -1,0 +1,23 @@
+.error-message{
+    font-size: 10px;
+    color: rgb(255, 0, 0);
+}
+
+.error-message-category{
+    font-size: 10px;
+    color: rgb(255, 0, 0);
+    margin-left: 70px;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.form-error-border{
+    border: red solid 1px;
+}
+
+.card{
+    border: none;
+}

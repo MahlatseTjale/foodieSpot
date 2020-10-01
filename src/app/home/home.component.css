@@ -1,0 +1,38 @@
+.hero-container{
+    background: url(src\assets\food-image.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+    padding: 0 10%;
+}
+.card{
+    position: relative;
+    top: 20%;
+    background: none;
+    border: none;
+    /* padding: 0 20px; */
+    /* margin-left: 40px; */
+    color: white;
+   
+}
+
+.btn-primary{
+    padding: 10px 40px;
+    background: rgb(235, 118, 23);
+    border: none; 
+    font-weight: bold;
+    margin-top: 25px ;
+}
+
+.btn-primary:hover{
+    background: rgb(167, 83, 15);
+}
+
+h4{
+    color: rgb(235, 118, 23);
+    font-weight: bolder;
+}
+
+p{
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}

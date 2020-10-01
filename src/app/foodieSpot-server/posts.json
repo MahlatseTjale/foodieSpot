@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "postTitle": "Cheese Burger",
+      "postCategory": "Sandwich",
+      "postDescription": "Freshest and the most mouth-watering burger in town,",
+      "postBody": "Freshest and the most mouth-watering burger in town, Freshest and the most mouth-waterling burger in town, Freshest and the most mouth-waterling burger in town"
+    },
+    {
+      "id": 2,
+      "postTitle": "veggie Burger5",
+      "postCategory": "Burger",
+      "postDescription": "Freshest and the most mouth-waterling burger in town",
+      "postBody": "Freshest and the most mouth-waterling burger in town, Freshest and the most mouth-waterling burger in town, Freshest and the most mouth-waterling burger in town"
+    },
+    {
+      "id": 3,
+      "postTitle": "Double Cheese Burger",
+      "postCategory": "Burger",
+      "postDescription": "Freshest and the most mouth-waterling burger in town",
+      "postBody": "Freshest and the most mouth-waterling burger in town, Freshest and the most mouth-waterling burger in town, Freshest and the most mouth-waterling burger in town"
+    },
+    {
+      "postTitle": "8888888888888",
+      "postCategory": "Sandwich",
+      "postDescription": "mmmmmmmmmmmmmmmmmmm",
+      "id": 9
+    },
+    {
+      "postTitle": "Mahlatse",
+      "postCategory": "Sea Food",
+      "postDescription": "nnnnnnnnnn",
+      "postBody": "nnnnnnnnnnnnnnnnn",
+      "id": 10
+    }
+  ]
+}
